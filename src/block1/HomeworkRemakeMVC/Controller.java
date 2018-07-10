@@ -1,4 +1,4 @@
-package Block1Remake;
+package block1.HomeworkRemakeMVC;
 
 import java.util.Scanner;
 

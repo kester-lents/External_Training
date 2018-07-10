@@ -1,4 +1,4 @@
-package Block1Remake;
+package block1.HomeworkRemakeMVC;
 
 /**
  * Created by Ruslan on 06.07.2018.

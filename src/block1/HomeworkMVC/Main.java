@@ -1,4 +1,4 @@
-package Block1;
+package block1.HomeworkMVC;
 
 /**
  * Created by Ruslan on 02.07.2018.

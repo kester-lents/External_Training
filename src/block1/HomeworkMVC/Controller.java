@@ -1,4 +1,4 @@
-package Block1;
+package block1.HomeworkMVC;
 
 import java.util.Scanner;
 
