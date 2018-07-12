@@ -1,31 +1,30 @@
-package block2.Homework_game.NotFinished;
+package block2.Homework_game.Finished;
 
 /**
  * Created by Ruslan on 09.07.2018.
  */
 public class Model {
-    private int min;
-    private int max;
+    private int min = 0;
+    private int max = 100;
     private int crypticNumber;
     private String result = "";
 
-    public int rand(int min, int max) {
-        setMin(min);
-        setMax(max);
+    public int rand() {
         setCrypticNumber((int) (Math.random() * (getMax() - getMin()) + getMin()));
+        System.out.println(getCrypticNumber());
         return getCrypticNumber();
     }
 
     public void changeRanges(int number) {
-        setMin(min);
-        setMax(max);
         if (number < getCrypticNumber()) {
             setMin(number);
-        } else setMax(number);
+        } else if (number > getCrypticNumber()) {
+            setMax(number);
+        }
     }
 
     public String attemptsString(int number) {
-        setResult(number + " ");
+        setResult(getResult() + number + " ");
         return getResult();
     }
 

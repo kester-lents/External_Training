@@ -19,4 +19,6 @@ class Model {
     public void setWord(String word) {
         this.word = word;
     }
+
+
 }
