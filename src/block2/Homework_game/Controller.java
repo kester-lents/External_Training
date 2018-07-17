@@ -1,4 +1,4 @@
-package block2.Homework_game.Finished;
+package block2.Homework_game;
 
 import java.util.Scanner;
 

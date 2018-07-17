@@ -1,4 +1,4 @@
-package block2.Homework_game.Finished;
+package block2.Homework_game;
 
 /**
  * Created by Ruslan on 09.07.2018.
